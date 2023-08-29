@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      Johns Hopkins Laboratory of Computational Intensive Care Medicine
+    </title>
+    <link rel="shortcut icon" href="/images/cicm_logo_square.jpg">
+
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="logo">
+        <h4>
+          <a href="./index.html" style="text-decoration: none; color: white"
+            >laboratory of computational intensive care medicine</a
+          >
+        </h4>
+      </div>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./about_us.html">About Us</a>
+      <a href="./people.html">people</a>
+
+      <a class="mainheading" href="./projects.html">Projects</a>
+      <div class="subheading">
+        <a href="#section1"
+          >Prediction <br />
+          & Classification</a
+        >
+        <a href="#section2">Phenotype <br />Discovery</a>
+        <a href="#section3"
+          >Optimizing<br />
+          Decision Making</a
+        >
+        <a href="#section4"
+          >Brain <br />
+          Mapping</a
+        >
+        <a href="#section5">Wearables</a>
+        <!-- <a href="#section5"
+          >Other <br />
+          Interests</a
+        > -->
+      </div>
+
+      <a href="./about_us.html#section2">Opportunities</a>
+      <a href="./about_us.html#section3">Collaborations</a>
+      <a href="./resources.html">Resources</a>
+      <a href="./publications.html">Publications</a>
+      <a href="./funding.html">Funding</a>
+      <a href="./awards.html">Awards</a>
+      <a href="#footer_section">Contact Us</a>
+    </nav>
+
+    <div class="main-body">
+      <div class="link_titles">
+        <h1>Projects</h1>
+      </div>
+
+      <div class="article-title1" id="section1">
+        <h1 class="article-text">
+          Statistical Prediction and Classification
+        </h1>
+      </div>
+
+      <div class="element1-people" id="section1">
+        <article class="element-people">
+          <!-- <p class="p-quote-small">
+            Current ongoing projects are described briefly below
+          </p> -->
+          <!--
+            <h1 class="article-title">
+            Statistical prediction and classification
+          </h1>
+          -->
+          
+
+          <h3 class="sub-title">Clinical Outcomes</h3>
+          <p class="p-quote">
+            Predicting clinical outcomes of ICU stratum patients utilizing
+            retrospective datasets is a core focus of our work and drives the
+            discovery, utility, and application of resulting models within
+            hospital analytics platforms.
+          </p>
+          <ol class="p-quote-li">
+            <li>Short and Long-term Survivability</li>
+            <li>Neurological Status</li>
+            <li>ICU and Hospital Length of Stay</li>
+            <li>Discharge Location</li>
+            <li>ICU and Hospital Readmission</li>
+            <li>Improved APACHE</li>
+          </ol>
+          <h3 class="sub-title">Disease Onset</h3>
+          <p class="p-quote">
+            Disease onset prediction involves data-driven understanding of
+            patient characteristics that contribute to developing said disease during hospitalization. 
+            This enables early prediction of in-hospital
+            ailments, providing clinicians sufficient time to provide interventions.
+          </p>
+          <ol class="p-quote-li">
+            <li>Pulmonary Embolism</li>
+            <li>Delirium</li>
+            <li>Mechanical Ventilation (MV)</li>
+            <li>MV Reintubation</li>
+            <li>ICU and hospital readmission</li>
+          </ol>
+          <h3 class="sub-title">Treatment Response</h3>
+          <p class="p-quote">
+            Understanding and predicting response to treatment/therapy is pivotal to creating patient specific precision care.
+          </p>
+          <ol class="p-quote-li">
+            <li>Cardiac Arrest Treatments</li>
+            <li>Traumatic Brain Injury Interventions</li>
+            <li>Response to Medication</li>
+            <li>Response to Procedures</li>
+          </ol>
+
+          <!-- <h3 class="sub-title">Deep Learning APACHE</h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p>
+          <h3 class="sub-title">Predicting Successful Extubation from MV</h3>
+          <p class="p-quote">
+            Mechanical ventilation (MV) is a necessary therapeutic measure that
+            should optimize conditions for recovery in the ICU. Studying the
+            prediction of extubation failure has the potential to increase
+            patient outcomes for the 15-20% of MV patients who require
+            reintubation after being extubated, which sees a doubled mortality
+            rate. The aims of this study are to develop a computational model
+            that would predict the likelihood of successful extubation from
+            mechanical ventilation and identify clinical and physiologic
+            features in patients that are at higher risk of extubation failure
+            and prolonged mechanical ventilation.
+          </p>
+          <h3 class="sub-title">Response to Targeted Temperature Management</h3>
+          <p class="p-quote">
+            Targeted Temperature Management (TTM) is a novel treatment method
+            shown to aid cardiac arrest patients with neurological recovery. TTM
+            involves placing the patient in a medically-induced hypothermia,
+            generally between 34-35°C, for 24 hours within 8 hours of the
+            cardiac arrest occurrence. However, TTM has only been effective for
+            a limited number of patients. Developing a machine learning
+            algorithm predicting a patient’s outcome of TTM treatment based on
+            the patient’s physiological signs will assist doctors with selecting
+            treatments following cardiac arrest.
+          </p>
+          <h3 class="sub-title">
+            Traumatic Brain Injury Response to Treatment
+          </h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p>
+          <h3 class="sub-title">ICU Readmission</h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p> -->
+        </article>
+      </div>
+
+      <div class="article-title1" id="section2">
+        <h1 class="article-text">
+          Phenotype Discovery
+        </h1>
+      </div>
+
+      <div class="element2" id="section2">
+        <article class="element">
+          <!--<h1 class="article-title">Phenotype Discovery</h1>-->
+          <h3 class="sub-title">Data-driven patient categorization</h3>
+          <p class="p-quote">
+            Unsupervised machine learning forcused on discovering clinically meaningful and data-driven physiologic sub-phenotypes to better categorize the heterogeneity within hospitalized populations.
+          </p>
+          <ol class="p-quote-li">
+            <li>Out of Hospital Cardiac Arrest</li>
+            <li>Moderate and Severe Traumatic Brain Injury</li>
+            <li>Sepsis 3</li>
+            <li>Acute respiratory distress syndrome</li>
+          </ol>
+          <!-- <h3 class="sub-title">Novel Post Cardiac Arrest Categorization</h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p>
+          <h3 class="sub-title">
+            Novel Times SeriesTraumatic Brain Injury Subphenotypes
+          </h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p>
+          <h3 class="sub-title">
+            Physiologic Time-series driven Sepsis 3 criteria
+          </h3>
+          <p class="p-quote">
+            Sepsis is a life-threatening syndrome characterized by organ
+            dysfunction and dysregulated response to infection. Each year,
+            sepsis is estimated to be responsible for 20% of deaths worldwide
+            and accounts for $15-20 billion of healthcare costs in the US alone.
+            However, sepsis and septic shock, a more severe subset, are broadly
+            defined with a diverse, complex constellation of possible
+            etiologies, comorbidities, and outcomes for each individual. Due to
+            this heterogeneity, there is an unmet need in providing immediate,
+            personalized care to patients. Delayed treatment, even by a few
+            hours, drastically increases the risk of mortality. Using data
+            science and machine learning approaches, this research aims to
+            leverage readily available physiological time-series data to
+            identify novel subphenotypes of sepsis, with the expectation that
+            computational models will help us understand the diversity and
+            evolution of sepsis over time. By stratifying patients, these
+            subphenotypes could more precisely and more quickly inform illness
+            severity and treatment.
+          </p>
+          <h3 class="sub-title">ARDS Sub-phenotype Identification</h3>
+          <p class="p-quote">
+            Brief description: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Mattis rhoncus urna neque viverra justo nec
+            ultrices. Nunc congue nisi vitae suscipit. Eget gravida cum sociis
+            natoque. Scelerisque purus semper eget duis. Facilisis sed odio
+            morbi quis.
+          </p> -->
+        </article>
+      </div>
+
+      <div class="article-title1" id="section3">
+        <h1 class="article-text">
+          Optimizing clinical decision-making
+        </h1>
+      </div>
+
+      <div class="element1" id="section3">
+        <article class="element">
+          <!--<h1 class="article-title">Optimizing clinical decision-making</h1>-->
+          <h3 class="sub-title">Reinforcement Learning</h3>
+          <p class="p-quote">
+            Optimization of timing, dosing, and duration of medical interventions
+          </p>
+          <ol class="p-quote-li">
+            <li>Medication Dose and Timing</li>
+            <li>Surgical Treatments</li>
+          </ol>
+
+          <!-- <h3 class="sub-title">Adverse Drug Reaction</h3>
+          <p class="p-quote">
+            Predicting the likelihood of a patient having an adverse reaction to
+            a given medication/medication class.
+          </p>
+          <ol class="p-quote-li">
+            <li>Carvedilol</li>
+            <li>Other Beta Blockers</li>
+          </ol> -->
+        </article>
+      </div>
+
+      <div class="article-title1" id="section4">
+        <h1 class="article-text">
+          Brain Mapping
+        </h1>
+      </div>
+
+      <div class="element2" id="section4">
+        <article class="element">
+          <!--<h1 class="article-title">Brain Mapping</h1>-->
+
+          <h3 class="sub-title">
+            Connectome Changes in Aneurysmal Subarachnoid Hemorrhage
+          </h3>
+          <p class="p-quote"></p>
+        </article>
+      </div>
+
+      <div class="article-title1" id="section5">
+        <h1 class="article-text">
+          Wearables
+        </h1>
+      </div>
+
+      <div class="element1" id="section5">
+        <article class="element">
+          <!--<h1 class="article-title">Wearables</h1>-->
+
+          <h3 class="sub-title">
+            COMPUTATIONAL MOTOR SIGNATURES IN NEUROINTENSIVE CARE
+          </h3>
+          <p class="p-quote"></p>
+        </article>
+      </div>
+
+      <!-- <div class="element1" id="section5">
+        <article class="element">
+          <h1 class="article-title">Other Interests</h1>
+
+          <h3 class="sub-title">----</h3>
+          <p class="p-quote">
+            Brief Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Mattis rhoncus urna neque viverra justo nec ultrices. Nunc congue
+            nisi vitae suscipit.
+          </p>
+          <h3 class="sub-title">----</h3>
+          <p class="p-quote">
+            Brief Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Mattis rhoncus urna neque viverra justo nec ultrices. Nunc congue
+            nisi vitae suscipit.
+          </p>
+        </article>
+      </div> -->
+
+      <footer>
+        <div class="article-title1" id="footer_section">
+          <h1 class="article-text">
+            Contact
+          </h1>
+        </div>
+        <div class="element2" id="footer_section">
+          <article class="element">
+            <!--<h1 class="sub-title">Contact</h1>-->
+
+            <p class="p-quote" style="padding-bottom: 0px; font-weight: 700">
+              Johns Hopkins Laboratory of Computational Intensive Care Medicine
+              <br />Department of Anesthesiology and Critical Care Medicine
+              <br />Johns Hopkins University School of Medicine
+            </p>
+            <p class="p-quote">
+              <br />Phipps Suite 455A, 600 N Wolfe Street <br />Baltimore,
+              Maryland 21287, USA
+            </p>
+            <p class="p-quote">
+              For questions, comments, collaborations, and/or research or job
+              opportunities please contact:
+            </p>
+
+            <ul class="p-quote-li">
+              <li>Dr. Robert Stevens @ rstevens@jhmi.edu</li>
+              <li>Han Kim @ hankim@jhu.edu</li>
+            </ul>
+          </article>
+
+          <p class="copyright">
+            Copyright &copy The Johns Hopkins University, The Johns Hopkins
+            Hospital. All rights reserved.
+          </p>
+          <p class= "copyright">
+            <a href="https://twitter.com/CicmLab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CicmLab</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </p>
+        </div>
+      </footer>
+
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
