@@ -758,7 +758,7 @@ nav a:hover {
   font-size: 1.3rem;
 }
 
-.main_img {
+/* .main_img {
   width: 15rem;
   height: 20rem;
   -o-object-fit: cover;
@@ -767,6 +767,18 @@ nav a:hover {
      object-position: 0% 0;
   float: left;
   padding-right: 25px;
+} */
+
+/* Center the image */
+.main_img {
+  width: 15rem;
+  height: 20rem;
+  -o-object-fit: cover;
+    object-fit: cover;
+  -o-object-position: center; /* Center the image content */
+      object-position: center;
+  float: left;
+  padding-right: 25px; 
 }
 
 .main_img_center {
